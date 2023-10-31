@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-var ali = 2    }
+var ali = 4    }
 
 
 }
