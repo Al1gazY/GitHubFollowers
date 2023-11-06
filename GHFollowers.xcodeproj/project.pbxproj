@@ -16,6 +16,7 @@
 		3661161E2AF1C32B00409682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3661161D2AF1C32B00409682 /* Assets.xcassets */; };
 		366116212AF1C32B00409682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3661161F2AF1C32B00409682 /* LaunchScreen.storyboard */; };
 		36BB452E2AF8329A007980D1 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BB452D2AF8329A007980D1 /* GFTextField.swift */; };
+		36BB45302AF98FB3007980D1 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BB452F2AF98FB3007980D1 /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		366116202AF1C32B00409682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		366116222AF1C32B00409682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36BB452D2AF8329A007980D1 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		36BB452F2AF98FB3007980D1 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				3661161F2AF1C32B00409682 /* LaunchScreen.storyboard */,
 				366116222AF1C32B00409682 /* Info.plist */,
 				36215ECB2AF8238F00197C5E /* SearchVC.swift */,
+				36BB452F2AF98FB3007980D1 /* FollowerListVC.swift */,
 				36215ECD2AF823D600197C5E /* FavoritesListVC.swift */,
 			);
 			path = GHFollowers;
@@ -152,6 +155,7 @@
 				36215ECE2AF823D600197C5E /* FavoritesListVC.swift in Sources */,
 				366116152AF1C32900409682 /* AppDelegate.swift in Sources */,
 				366116172AF1C32900409682 /* SceneDelegate.swift in Sources */,
+				36BB45302AF98FB3007980D1 /* FollowerListVC.swift in Sources */,
 				36BB452E2AF8329A007980D1 /* GFTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
