@@ -29,6 +29,9 @@
 		36BB454C2AFAEF1B007980D1 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BB454B2AFAEF1B007980D1 /* GFAvatarImageView.swift */; };
 		36D96B3B2AFD6439006F3AB8 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B3A2AFD6439006F3AB8 /* GFEmptyStateView.swift */; };
 		36D96B3D2AFD7336006F3AB8 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B3C2AFD7336006F3AB8 /* UserInfoVC.swift */; };
+		36D96B3F2AFD834D006F3AB8 /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B3E2AFD834D006F3AB8 /* GFUserInfoHeaderVC.swift */; };
+		36D96B412AFD8398006F3AB8 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B402AFD8398006F3AB8 /* GFSecondaryTitleLabel.swift */; };
+		36D96B432AFD899C006F3AB8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B422AFD899C006F3AB8 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		36BB454B2AFAEF1B007980D1 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		36D96B3A2AFD6439006F3AB8 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		36D96B3C2AFD7336006F3AB8 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
+		36D96B3E2AFD834D006F3AB8 /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
+		36D96B402AFD8398006F3AB8 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
+		36D96B422AFD899C006F3AB8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +172,7 @@
 			children = (
 				36BB45462AFAE1A0007980D1 /* ErrorMessages.swift */,
 				369E24EB2AFC4CEC00FD111D /* UIHelper.swift */,
+				36D96B422AFD899C006F3AB8 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -214,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				36BB45352AF9965C007980D1 /* GFAlertVC.swift */,
+				36D96B3E2AFD834D006F3AB8 /* GFUserInfoHeaderVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -223,6 +231,7 @@
 			children = (
 				36BB45312AF99491007980D1 /* GFTitleLabel.swift */,
 				36BB45332AF995C1007980D1 /* GFBodyLabel.swift */,
+				36D96B402AFD8398006F3AB8 /* GFSecondaryTitleLabel.swift */,
 			);
 			path = Lables;
 			sourceTree = "<group>";
@@ -303,14 +312,17 @@
 				36215ED02AF82C1000197C5E /* GFButton.swift in Sources */,
 				36215ECE2AF823D600197C5E /* FavoritesListVC.swift in Sources */,
 				369E24EC2AFC4CEC00FD111D /* UIHelper.swift in Sources */,
+				36D96B432AFD899C006F3AB8 /* Constants.swift in Sources */,
 				36BB454C2AFAEF1B007980D1 /* GFAvatarImageView.swift in Sources */,
 				366116152AF1C32900409682 /* AppDelegate.swift in Sources */,
 				36BB45362AF9965C007980D1 /* GFAlertVC.swift in Sources */,
 				36BB454A2AFAEDAB007980D1 /* FollowerCell.swift in Sources */,
 				366116172AF1C32900409682 /* SceneDelegate.swift in Sources */,
+				36D96B3F2AFD834D006F3AB8 /* GFUserInfoHeaderVC.swift in Sources */,
 				36BB45472AFAE1A0007980D1 /* ErrorMessages.swift in Sources */,
 				36BB453E2AF9A608007980D1 /* Follower.swift in Sources */,
 				36BB45322AF99491007980D1 /* GFTitleLabel.swift in Sources */,
+				36D96B412AFD8398006F3AB8 /* GFSecondaryTitleLabel.swift in Sources */,
 				36D96B3B2AFD6439006F3AB8 /* GFEmptyStateView.swift in Sources */,
 				36BB45442AF9AE67007980D1 /* NetworkManager.swift in Sources */,
 				36BB45302AF98FB3007980D1 /* FollowerListVC.swift in Sources */,
