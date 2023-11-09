@@ -28,6 +28,7 @@
 		36BB454A2AFAEDAB007980D1 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BB45492AFAEDAB007980D1 /* FollowerCell.swift */; };
 		36BB454C2AFAEF1B007980D1 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BB454B2AFAEF1B007980D1 /* GFAvatarImageView.swift */; };
 		36D96B3B2AFD6439006F3AB8 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B3A2AFD6439006F3AB8 /* GFEmptyStateView.swift */; };
+		36D96B3D2AFD7336006F3AB8 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B3C2AFD7336006F3AB8 /* UserInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		36BB45492AFAEDAB007980D1 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		36BB454B2AFAEF1B007980D1 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		36D96B3A2AFD6439006F3AB8 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		36D96B3C2AFD7336006F3AB8 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +88,8 @@
 		366116132AF1C32900409682 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				36BB45452AFAE191007980D1 /* Utilities */,
 				366116222AF1C32B00409682 /* Info.plist */,
+				36BB45452AFAE191007980D1 /* Utilities */,
 				36BB45422AF9AE56007980D1 /* Managers */,
 				36BB45412AF9A619007980D1 /* Model */,
 				36BB453B2AF9A1A1007980D1 /* Extensions */,
@@ -104,6 +106,7 @@
 				36215ECB2AF8238F00197C5E /* SearchVC.swift */,
 				36BB452F2AF98FB3007980D1 /* FollowerListVC.swift */,
 				36215ECD2AF823D600197C5E /* FavoritesListVC.swift */,
+				36D96B3C2AFD7336006F3AB8 /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				36BB45302AF98FB3007980D1 /* FollowerListVC.swift in Sources */,
 				36BB452E2AF8329A007980D1 /* GFTextField.swift in Sources */,
 				36BB45342AF995C1007980D1 /* GFBodyLabel.swift in Sources */,
+				36D96B3D2AFD7336006F3AB8 /* UserInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
