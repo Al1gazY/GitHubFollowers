@@ -32,6 +32,7 @@
 		36D96B3F2AFD834D006F3AB8 /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B3E2AFD834D006F3AB8 /* GFUserInfoHeaderVC.swift */; };
 		36D96B412AFD8398006F3AB8 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B402AFD8398006F3AB8 /* GFSecondaryTitleLabel.swift */; };
 		36D96B432AFD899C006F3AB8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B422AFD899C006F3AB8 /* Constants.swift */; };
+		36D96B452AFED447006F3AB8 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B442AFED447006F3AB8 /* GFItemInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		36D96B3E2AFD834D006F3AB8 /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
 		36D96B402AFD8398006F3AB8 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		36D96B422AFD899C006F3AB8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		36D96B442AFED447006F3AB8 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				36D96B3A2AFD6439006F3AB8 /* GFEmptyStateView.swift */,
+				36D96B442AFED447006F3AB8 /* GFItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				36BB454C2AFAEF1B007980D1 /* GFAvatarImageView.swift in Sources */,
 				366116152AF1C32900409682 /* AppDelegate.swift in Sources */,
 				36BB45362AF9965C007980D1 /* GFAlertVC.swift in Sources */,
+				36D96B452AFED447006F3AB8 /* GFItemInfoView.swift in Sources */,
 				36BB454A2AFAEDAB007980D1 /* FollowerCell.swift in Sources */,
 				366116172AF1C32900409682 /* SceneDelegate.swift in Sources */,
 				36D96B3F2AFD834D006F3AB8 /* GFUserInfoHeaderVC.swift in Sources */,
