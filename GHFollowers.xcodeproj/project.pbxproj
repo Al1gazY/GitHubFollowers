@@ -38,6 +38,7 @@
 		36D96B4B2AFF0C23006F3AB8 /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B4A2AFF0C23006F3AB8 /* GFFollowerItemVC.swift */; };
 		36D96B4E2AFF3C0C006F3AB8 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B4D2AFF3C0C006F3AB8 /* Date+Ext.swift */; };
 		36D96B502AFF3C3F006F3AB8 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B4F2AFF3C3F006F3AB8 /* String+Ext.swift */; };
+		36F214602B001F3A00303214 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F2145F2B001F3A00303214 /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		36D96B4A2AFF0C23006F3AB8 /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
 		36D96B4D2AFF3C0C006F3AB8 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		36D96B4F2AFF3C3F006F3AB8 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		36F2145F2B001F3A00303214 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				36BB45432AF9AE67007980D1 /* NetworkManager.swift */,
+				36F2145F2B001F3A00303214 /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				36BB453E2AF9A608007980D1 /* Follower.swift in Sources */,
 				36BB45322AF99491007980D1 /* GFTitleLabel.swift in Sources */,
 				36D96B4E2AFF3C0C006F3AB8 /* Date+Ext.swift in Sources */,
+				36F214602B001F3A00303214 /* PersistenceManager.swift in Sources */,
 				36D96B412AFD8398006F3AB8 /* GFSecondaryTitleLabel.swift in Sources */,
 				36D96B3B2AFD6439006F3AB8 /* GFEmptyStateView.swift in Sources */,
 				36BB45442AF9AE67007980D1 /* NetworkManager.swift in Sources */,
