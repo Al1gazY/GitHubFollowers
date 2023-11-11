@@ -22,22 +22,22 @@ enum PersistenceManager {
         retrieveFavorites { result in
             switch result {
             case .success(let favorites):
-                var retievedFavorites = favorites
+                var retrievedFavorites = favorites
                 
                 switch actionType{
                 case .add:
-                    guard !retievedFavorites.contains(favorite) else{
+                    guard !retrievedFavorites.contains(favorite) else{
                         completed(.alreadyInFavorites)
                         return
                     }
                     
-                    retievedFavorites.append(favorite)
+                    retrievedFavorites.append(favorite)
                     
                 case .remove:
-                    retievedFavorites.removeAll { $0.login == favorite.login  }
+                    retrievedFavorites.removeAll { $0.login == favorite.login  }
                 }
                 
-                completed(save(favorites: favorites))
+                completed(save(favorites: retrievedFavorites))
                 
             case .failure(let error):
                 completed(error)
