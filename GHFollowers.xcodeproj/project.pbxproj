@@ -39,6 +39,7 @@
 		36D96B4E2AFF3C0C006F3AB8 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B4D2AFF3C0C006F3AB8 /* Date+Ext.swift */; };
 		36D96B502AFF3C3F006F3AB8 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D96B4F2AFF3C3F006F3AB8 /* String+Ext.swift */; };
 		36F214602B001F3A00303214 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F2145F2B001F3A00303214 /* PersistenceManager.swift */; };
+		36F214622B01A3CA00303214 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F214612B01A3CA00303214 /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		36D96B4D2AFF3C0C006F3AB8 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		36D96B4F2AFF3C3F006F3AB8 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		36F2145F2B001F3A00303214 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		36F214612B01A3CA00303214 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				36BB45492AFAEDAB007980D1 /* FollowerCell.swift */,
+				36F214612B01A3CA00303214 /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				36BB45362AF9965C007980D1 /* GFAlertVC.swift in Sources */,
 				36D96B4B2AFF0C23006F3AB8 /* GFFollowerItemVC.swift in Sources */,
 				36D96B452AFED447006F3AB8 /* GFItemInfoView.swift in Sources */,
+				36F214622B01A3CA00303214 /* FavoriteCell.swift in Sources */,
 				36BB454A2AFAEDAB007980D1 /* FollowerCell.swift in Sources */,
 				366116172AF1C32900409682 /* SceneDelegate.swift in Sources */,
 				36D96B3F2AFD834D006F3AB8 /* GFUserInfoHeaderVC.swift in Sources */,
