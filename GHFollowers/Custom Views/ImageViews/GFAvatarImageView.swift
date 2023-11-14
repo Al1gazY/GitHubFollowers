@@ -28,8 +28,4 @@ class GFAvatarImageView: UIImageView {
         translatesAutoresizingMaskIntoConstraints = false
     }
 
-    func downloadImage(from urlString: String){
-        
-        
-    }
 }
