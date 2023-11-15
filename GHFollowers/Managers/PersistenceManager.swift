@@ -8,10 +8,12 @@
 import Foundation
 
 enum PersistenceActionType{
+    
     case add, remove
 }
 
 enum PersistenceManager {
+    
     static private let defaults = UserDefaults.standard
     
     enum Keys {
@@ -19,6 +21,7 @@ enum PersistenceManager {
     }
     
     static func updateWith(favorite: Follower, actionType: PersistenceActionType, completed: @escaping(GFError?) -> Void){
+        
         retrieveFavorites { result in
             switch result {
             case .success(let favorites):
@@ -46,6 +49,7 @@ enum PersistenceManager {
     }
     
     static func retrieveFavorites(completed: @escaping(Result<[Follower], GFError>) -> Void){
+        
         guard let favoritesData = defaults.object(forKey: Keys.favorites) as? Data else{
             completed(.success([]))
             return

@@ -27,5 +27,4 @@ class GFAvatarImageView: UIImageView {
         image = placeholderImage
         translatesAutoresizingMaskIntoConstraints = false
     }
-
 }

@@ -30,12 +30,10 @@ class SearchVC: UIViewController {
         navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
-    
     func createDismissKeyboardTapGesture(){
         let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
         view.addGestureRecognizer(tap)
     }
-    
     
     @objc func pushFollowerListVC(){
         
@@ -62,8 +60,7 @@ class SearchVC: UIViewController {
             logoImageView.widthAnchor.constraint(equalToConstant: 200)
         ])
     }
-    
-    
+
     func configureTextField() {
         view.addSubview(usernameTextField)
         usernameTextField.delegate = self
@@ -75,7 +72,6 @@ class SearchVC: UIViewController {
             usernameTextField.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
-    
     
     func configureCallToActionButton(){
         view.addSubview(callToActionButton)
@@ -90,7 +86,6 @@ class SearchVC: UIViewController {
     }
 
 }
-
 
 extension SearchVC: UITextFieldDelegate{
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
