@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360C85422B0566A40070D630 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C85412B0566A40070D630 /* UITableView+Ext.swift */; };
 		36215ECC2AF8238F00197C5E /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36215ECB2AF8238F00197C5E /* SearchVC.swift */; };
 		36215ECE2AF823D600197C5E /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36215ECD2AF823D600197C5E /* FavoritesListVC.swift */; };
 		36215ED02AF82C1000197C5E /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36215ECF2AF82C1000197C5E /* GFButton.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		360C85412B0566A40070D630 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 		36215ECB2AF8238F00197C5E /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		36215ECD2AF823D600197C5E /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		36215ECF2AF82C1000197C5E /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			children = (
 				36BB45372AF99C57007980D1 /* UIViewController+Ext.swift */,
 				36D96B4D2AFF3C0C006F3AB8 /* Date+Ext.swift */,
+				360C85412B0566A40070D630 /* UITableView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36BB45402AF9A611007980D1 /* User.swift in Sources */,
+				360C85422B0566A40070D630 /* UITableView+Ext.swift in Sources */,
 				36215ECC2AF8238F00197C5E /* SearchVC.swift in Sources */,
 				36BB45382AF99C57007980D1 /* UIViewController+Ext.swift in Sources */,
 				36215ED02AF82C1000197C5E /* GFButton.swift in Sources */,
